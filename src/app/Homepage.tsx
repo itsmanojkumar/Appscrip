@@ -2,6 +2,7 @@
 import React from 'react'
 import { useEffect,useRef,useState } from 'react';
 
+
 function Homepage() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -28,7 +29,9 @@ function Homepage() {
   return (
     <>
     <div>
+      <img src="\images\Logo.png"></img>
         <h1>LOGO</h1>
+        <img src="\images\Icons.png" alt='iconss'></img>
         <div>
             <nav>
                 <li>SHOP</li>

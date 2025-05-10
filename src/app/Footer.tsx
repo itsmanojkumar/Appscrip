@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css';
 
 function Footer() {
   return (
     <>
+    <div className='foot'>
     <div>
     <h1>Be the first to know</h1>
     <h1>Sign up for updates from mettā muse.</h1>
@@ -41,13 +43,15 @@ function Footer() {
         </div>
          <div>
             <h1>Follow Us</h1>
+            <img src="images\Frame 28.png"></img>
             <h1>mettā muse</h1>
             <h1>mettā muse Accepts</h1>
-            <h1>mettā muse</h1>
-            <h1>mettā muse</h1>
+            <img src="\images\Pay.png"></img>
+    
         
         </div>
         
+    </div>
     </div>
     </>
   )
