@@ -1,4 +1,50 @@
-.foot{
+@media only screen and (min-width: 900px){
+    .foot{
     background-color: #000000;
     color:#FFFFFF;
+    width: 1440px;
+height: 750px;
+top: 210px;
+position: relative;
+
+
+    
+}
+.rightalign{
+    display: flex;
+     padding-left: 128px;
+    padding-top: 50px;
+    gap: 500px; ;
+}
+
+.foot1{
+    /* gap: 10px; */
+
+
+}
+
+.bottomright{
+    display: flex;
+    gap:212px;
+    padding-left: 128px;
+}
+}
+/* .footright{ */
+    /* gap: 10px; */
+    /* margin-left: 888px; */
+    /* margin-top: 79px; */
+    /* align-items: self-end; */
+/* } */
+
+@media only screen and (max-width: 820px){
+
+.foot{
+    width: 375px;
+/* height: 1000px; */
+position: relative;
+color: #FFFFFF;
+background-color: #000000;
+top: 1300px;
+
+}
 }
