@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import Image from 'next/image';
 
 function Footer() {
   return (
@@ -46,11 +47,11 @@ function Footer() {
         </div>
          <div>
             <h1>Follow Us</h1>
-            <img src="images\Frame 28.png"></img>
+            {/* <Image src="images/Frame28.png" alt='follow' className='Frame' width={20} height={20}/> */}
             <h3>mettā muse</h3>
             <h3>mettā muse Accepts</h3>
-            <img src="\images\Pay.png"></img>
-    
+            <Image src="/images/Pay.png" alt='accept' width={350} height={50} />
+  
         
          </div>
         

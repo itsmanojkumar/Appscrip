@@ -1,9 +1,18 @@
   'use client'
   import React, { useEffect, useState } from 'react';
   import './Products.css'
+  import Image from 'next/image';
+
+  interface Product {
+  id: number;
+  title: string;
+  price: number;
+  image: string;
+  description: string;
+}
 
   function Products() {
-    const [products, setProducts] = useState<any[]>([]); // Use a proper type if available
+    const [products, setProducts] = useState<Product[]>([]); // Use a proper type if available
     const [loading, setLoading] = useState<boolean>(true);
 
     useEffect(() => {
@@ -26,7 +35,7 @@
       <div className='allproducts'>
         {products.length>0 && products.map((product) => (
           <div className='product' key={product.id}>
-            <img src={product.image} alt={product.title} className='productimage' />
+            <Image src={product.image} alt={product.title} height={224} width={168}/>
             <h3>{product.title}</h3>
             <button>Cart</button>
             {/* <p>{product.price}</p> */}

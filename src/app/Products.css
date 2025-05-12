@@ -20,7 +20,7 @@ height: 462px;
 
 
 }
-.productimage{
+.product Image{
     height:250px;
     width:200px; 
     
@@ -37,23 +37,25 @@ padding-bottom: 24px;
 display: flex;
 flex-wrap: wrap;
 position: relative;
+margin-top: px;
+/* top: 293px; */
     }
 
 .product{
     width: 168px;
-height: 277px;
+height: 285px;
 
 
 }
 
-.productimage{
-    height:224px;
+.product Image{
+    height:210px;
     width:168px;  
 } 
 .product h3{
     font-family: Simplon Norm;
 font-weight: 700;
-font-size: 14px;
+font-size: 10px;
 line-height: 100%;
 letter-spacing: 0px;
 text-transform: uppercase;

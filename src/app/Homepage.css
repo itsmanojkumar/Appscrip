@@ -6,6 +6,23 @@
 
 
 }
+.dropdown-content{
+    display:flex;
+    flex-direction: column;
+    gap:20px
+
+
+}
+
+.dropdown-content button{
+    border: none;
+    width:100px;
+    background-color: none;
+    border: 1px #E5E5E5;
+    width: 300px;
+
+
+}
 
 .header{
     position: relative;
@@ -13,13 +30,24 @@
 height: 220px;
 border-width: 1px;
 margin-top: 40px;
+border: 1px solid #E5E5E5;
 
+}
+
+.filtermobile button{
+    display: none;
+}
+
+.listmobile ul{
+    display: none;
 }
 
 .logo{
     position: absolute;
     top: 36px;
     left:36px;
+    /* width: 20px; */
+    /* height: 19px; */
 
 }
 
@@ -41,12 +69,23 @@ left: 667px;
 .discover{
     position: relative;
 
-    width: 721px;
+    width: 793px;
     height: 168px;
     /* top:72px; */
     left: 360px;  
 }
 
+.discover p{
+   font-family: Simplon Norm;
+font-weight: 400;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: 1px;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+
+}
 .icons{
     position: absolute;
     top:46px;
@@ -66,6 +105,17 @@ font-size: 20px;
 line-height: 100%;
 letter-spacing: 1px;
 vertical-align: middle;
+
+.men{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filtermobile{
+    display: none;
+    
+}
 
 
 
@@ -91,8 +141,8 @@ position: relative;
         left: 44px;
         top:17px;
         position: absolute;
-            width: 19.889488220214844;
-height: 19.91339683532715;
+            width: 20px;
+height: 19.91339683532715px;
     }
     .logodisplay{
         /* align-items: center; */
@@ -133,9 +183,42 @@ width: 30;
 height: 14;
 top: 50px;
 left: 10px;
+display: none;
 
     }
-.discover{
+  .listmobile ul{
+        font-family: Simplon Norm;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0px;
+position: relative;
+width: 30;
+height: 14;
+top: 50px;
+left: 0px;
+display: flex;
+gap: 5px;
+
+  }
+
+.discover p{
+    font-family: Simplon Norm;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+text-transform: uppercase;
+width: 309px;
+height: 29px;
+left: 43px;
+top: 43px;
+position: relative;
+}
+
+.discover h2{
     top:50px;
     left:10px;
     position: relative;
@@ -148,7 +231,28 @@ line-height: 22px;
 letter-spacing: 0px;
 text-align: center;
 
+}
 
+.filtermobile{
+    display: flex;
+    gap: 80px;
+    padding-left: 70px;
+    font-family: Simplon Norm;
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0px;
+text-transform: uppercase;
+width: 340px;
+height: 41px;
+border: 1px solid #E5E5E5;
+border-width: 1px;
+
+
+}
+.filtermobile button{
+    border: none;
+    background-color: none;
 }
 
 .dropdown button{
@@ -158,6 +262,9 @@ height: 41;
 border-width: 1px;
 top: 100px;
 
+}
+.dropdown-content{
+    display: none;
 }
 
     

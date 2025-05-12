@@ -28,6 +28,8 @@ position: relative;
     gap:212px;
     padding-left: 128px;
 }
+
+
 }
 /* .footright{ */
     /* gap: 10px; */
@@ -44,7 +46,12 @@ position: relative;
 position: relative;
 color: #FFFFFF;
 background-color: #000000;
-top: 1300px;
+top: 1320px;
 
+}
+
+.frame{
+    width: 20px;
+    height: 20px;
 }
 }
