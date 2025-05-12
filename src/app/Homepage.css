@@ -9,7 +9,7 @@
 .dropdown-content{
     display:flex;
     flex-direction: column;
-    gap:20px
+    gap:20px;
 
 
 }
@@ -20,7 +20,7 @@
     background-color:transparent ;
     border: 1px #E5E5E5;
     width: 300px;
-
+    cursor: pointer;
 
 }
 
