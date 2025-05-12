@@ -72,7 +72,7 @@ function Homepage() {
           {/* <a href="#">Option 2</a> */}
           {/* <a href="#">Option 3</a> */}
           <button onClick={toggleDropdownlist}>IDEAL FOR</button>
-          {isOpen && (
+          {filterlist && (
             <div className='men'>
               <label >
                 <input type="checkbox" name="idealFor" value="men"></input>
